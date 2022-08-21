@@ -1,0 +1,20 @@
+.wrapperfooter {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    position: relative;
+    width: 100%;
+    background: #0A3F76;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 640px) {
+    .wrapperfooter {
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        position: relative;
+        height: fit-content;
+    }
+}
