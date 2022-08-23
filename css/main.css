@@ -50,11 +50,6 @@ li {
     /* Линки темнеют при наведении, нажатии, TABировании */
 }
 
-@media screen and (max-width: 640px) {
-    .menu___wrapper {
-        display: none;
-    }
-}
 
 
 #banner{
