@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="./css/headergrid.css">
     <link rel="stylesheet" href="./css/tooltip.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="stylesheet" href="./css/nikitacards.css">
+    <link rel="stylesheet" href="./css/itc-slider.css">
+    <script src ="scripts/itc-slider.js" defer></script>
 
     <!-- MOBILE ADAPTIVE -->
-
+    <!-- а где... а нету -->
     
 </head>
 <body>
@@ -74,15 +76,78 @@
             </ui>
         </nav>
     </div>
-    <div id="fone">    
-    </div>
+<!-- БАННЕР? А КОГДА? -->
+<div>
+    <img src = "img/banner.jpg" id = "banner">
+</div>
+
+
 <!-- никита сделал хуйню -->
+    <div class="cards__greed">
 
+        <div class="blur" id = "firstblur">
+            <p class="text_main">КАТАЛОГ</p>
+            <p class="text_dop">Готовые изделия</p>
+            <p class="text_op">Одежда создается небольшим количеством прямо в студии, без фабрик и массовых потоков</p>
+            
+            <div class="knopka">
+                <p class="choose">Выбрать</p>
+            </div>
 
+        </div>
+
+        <div class="blur" id = "secondblur">
+            <p class="text_main">КОНСТРУКТОР</p>
+            <p class="text_dop">Создай свою тельняшку</p>
+            <img class="ddd" src="./img/3D.png"> 
+            <div class="knopka">
+                <p class="choose">Выбрать</p>
+            </div>
+
+        </div>     
+
+        <div class="blur" id = "thirdblur">
+            <p class="text_main">Повтор модели по индивидуальному заказу</p>
+            <p class="text_op">Возможность видоизменить желаемое изделие используя детали готовых моделей</p>
+    
+            <div class="knopka">
+                <p class="choose">Выбрать</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about_brand">
+
+    <div class="rectangle">
+        <p class="about">О бренде</p>
+    </div>
+
+    <div class="container_text">
+        <img src="./img/svg/wave1.svg" id ="wave1">
+        <img src="./img/svg/wave2.svg" id ="wave2">
+        <p class="lvl1">Goranskaya L  – локальный бренд авторской одежды</p>
+        <p class="lvl2">Сохранение национальных, региональных и имиджевых компонентов через визуализацию и айдентику Приморского края. Здесь рождается одежда с приморским характером, пронизанная духом свободы, изготовленная руками самого автора – дизайнера Горанской Людмилы. </p>
+        <p class="lvl3">Изделия, это отражение характера, стиля и даже настроения. Часто используем символику Владивостока и Приморского края, разрабатываем принты и наносим их на одежду в технике вышивки-аппликации. Одежда создается небольшим количеством прямо в студии, без фабрик и массовых потоков.</p>
+        <p class="lvl4">Необычные формы, качественные ткани, принты, разработанные и выполненные вручную, изделия легко вписываются в гардероб, становясь деликатным акцентом – можно не сомневаться, что Ваш образ будет неповторим.</p>
+    </div>
+
+    <div class="pictures">
+
+        <img src="./img/im11.png" class="im11">
+        <img src="./img/im12.png" class="im12">
+
+    </div>
+</div>
 
 <!-- puzzle by wetlyfleff optimized-->
+<div class="rectangle2">
+    <p class="about2">Коллекции с авторскими вышивками-аппликациями </p>
+</div>
 
 <div class="pazzle">
+
     <div class="plate">
         <div class = "imgcon1">
             <a href="page/help.html"><img src="./img/firstplate.png" alt="чайка"></a>
@@ -100,8 +165,36 @@
         </div>
     </div>
 </div>
+    <!-- Slider actual -->
+    <div class="rectangle2">
+        <p class="about2">Актуальное</p>
+    </div>
 
 
+    <div class="slider" data-slider="itc-slider" data-loop="false">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+                <img src="./img/sliders/p1.png" id ="slider___photo">
+                <img src="./img/sliders/p2.png"  id ="slider___photo">
+                <img src="./img/sliders/p3.png"  id ="slider___photo">
+            </div>
+            <div class="slider__item">
+                <img src="./img/sliders/p4.png"  id ="slider___photo">
+                <img src="./img/sliders/p5.png"  id ="slider___photo">
+                <img src="./img/sliders/p6.png"  id ="slider___photo">
+            </div>
+            <div class="slider__item">
+                <img src="./img/sliders/p4.png"  id ="slider___photo">
+                <img src="./img/sliders/p5.png"  id ="slider___photo">
+                <img src="./img/sliders/p6.png"  id ="slider___photo">
+            </div>
+          </div>
+        </div>
+        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+        <button class="slider__control" data-slide="prev"></button>
+        <button class="slider__control" data-slide="next"></button>
+      </div>
 
     <!-- optimized footer -->
 <ul class="wrapperfooter">
@@ -113,7 +206,8 @@
        <third-left id="btmfooter">О бренде</third-left>
        <third-right id="btmfooter">Отзывы</third-right>
     </div>
-    <div class="fone">    
+    <div class="footer_logo">    
+        <img src="./img/footer___logo.jpg" class="footer_logo_img">
     </div>
     <div class="footer___right">
         <p class = "footer___p">ВЛАДИВОСТОК</p>
@@ -134,9 +228,5 @@
         © 2022 Любое использование контента без письменного согласия правообладателя запрещено
     </p>
 </div>
-<script src = "fone/root.js"></script>
-<script src = "fone/fonerenderpage.js"></script>
-<script src = "fone/fone.js"></script>
-<link rel="stylesheet" href="./fone/fone.css">
 </body>
 </html>

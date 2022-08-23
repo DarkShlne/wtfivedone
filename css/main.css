@@ -4,12 +4,13 @@
     top: 0;  
     max-width: 100%;
     height: 4vw;
-    margin: 0 auto;
     margin-top: 2vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    z-index: 1000;
 }
 
 .menu___list{
@@ -53,4 +54,11 @@ li {
     .menu___wrapper {
         display: none;
     }
+}
+
+
+#banner{
+    padding-top: 4vw;
+    width: 100%;
+    height: 87%;
 }

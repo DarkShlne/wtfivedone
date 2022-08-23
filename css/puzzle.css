@@ -36,7 +36,7 @@ a.imgcon2:hover{
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(../img/backplate.png);
+    background-image: url(../img/svg/capusta.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -59,7 +59,7 @@ a.imgcon2:hover{
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(../img/backplate.png);
+    background-image: url(../img/svg/tiger.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -81,7 +81,7 @@ a.imgcon2:hover{
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(../img/backplate.png);
+    background-image: url(../img/svg/chaika.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -105,4 +105,11 @@ a.imgcon2:hover{
 }
 
 @media screen and (max-width: 640px) {
+}
+
+#wave1{
+    position: absolute;
+    right: 0;
+    width: 20vw;
+    height: 20vw;
 }
